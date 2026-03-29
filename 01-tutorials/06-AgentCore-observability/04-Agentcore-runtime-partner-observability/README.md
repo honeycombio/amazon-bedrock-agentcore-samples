@@ -46,6 +46,10 @@ Each platform requires specific configuration:
 - Instana key
 - Project configuration
 
+### Honeycomb
+- API key from Honeycomb dashboard
+- Traces are routed to a dataset automatically based on the `service.name` OTEL attribute
+
 ### Langfuse
 - Public and secret keys
 - Project configuration
@@ -62,11 +66,12 @@ After completing examples:
 
 - [Arize Documentation](https://arize.com/docs/ax)
 - [Braintrust Documentation](https://www.braintrust.dev/docs)
+- [Honeycomb Documentation](https://docs.honeycomb.io/send-data/opentelemetry/)
 - [Instana Documentation](https://www.ibm.com/docs/en/instana-observability/1.0.308?topic=overview)
 - [Langfuse Documentation](https://langfuse.com/docs)
 - [AgentCore Runtime Guide](https://docs.aws.amazon.com/bedrock-agentcore/latest/userguide/runtime.html)
 
 # Third-Party Observability for Amazon Bedrock AgentCore Agents
 
-This repository contains examples of using agents hosted on Amazon Bedrock AgentCore Runtime with third-party observability tools like Arize, Braintrust, Instana, Langfuse, and others. These examples demonstrate OpenTelemetry integration for monitoring agent performance, tracing LLM interactions, and debugging workflows.
+This repository contains examples of using agents hosted on Amazon Bedrock AgentCore Runtime with third-party observability tools like Arize, Braintrust, Honeycomb, Instana, Langfuse, and others. These examples demonstrate OpenTelemetry integration for monitoring agent performance, tracing LLM interactions, and debugging workflows.
 
